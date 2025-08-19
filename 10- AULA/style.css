@@ -1,0 +1,111 @@
+body {
+  background-color: blue;
+  text-align:center;
+  color: white;
+  font-size: 60px;
+}
+
+#bloco {
+  background-color: red;
+}
+
+.quad {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  /* display: inline-block; */
+  /* display: inline; */
+}
+
+#quad1 {
+  background-color: green;
+}
+#quad2 {
+  background-color: yellow;
+}
+#quad3 {
+  background-color: purple;
+}
+#linha-bloco {
+  
+  background-color: orange;
+}
+
+#grid{
+    background-color: pink;
+    display: grid;
+    min-width: 100%;
+    min-height: 100%;
+    height: 900px;
+    /* grid-template-rows: 200px 500px 100px; */
+    /* grid-template-columns: 30% 65%; */
+    grid-template: 1fr 1fr /1fr 1fr 1fr;
+    grid-gap:10px;
+    justify-items:center; /*start center end*/
+    align-items:center; /*left center right*/
+    
+
+}
+
+
+.item{
+    border:1px solid black;
+    text-align: center ;
+    font-size: 20px;
+    font-weight: border;
+}
+
+#grid2{
+    display: grid;
+    background-color: burlywood;
+    grid-template-rows : 200px 500px 100px;
+    grid-template-columns: 30% 65%;
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "lateral principal principal"
+    "rodape rodape rodape";
+     grid-gap: 10px;
+}
+
+
+#cabecalho{
+    grid-area: cabecalho;
+    background-color:red;
+}
+#lateral{
+    grid-area: lateral;
+    background-color: greenyellow;
+}
+#principal{
+    grid-area: principal;
+    background-color: chocolate;
+}    
+
+#rodape{
+    grid-area: rodape;
+    background-color: darkcyan;
+}
+
+#flex{
+    background-color: black;
+    height: 700px; 
+    min-width: 100% ; 
+    gap:10px;  
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column-reverse; */
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+#quad1{
+    flex-shrink: 0;
+
+}
+#quad2{
+    flex-grow: 1;
+   
+
+}
