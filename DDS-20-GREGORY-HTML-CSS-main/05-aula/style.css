@@ -1,0 +1,38 @@
+/* ESTILIZAÇÃO POR TAGS */
+ul{
+    background-color: rgb(255, 0, 0);
+    list-style:none;
+    /* list-style-image: url("https://cdn-icons-png.flaticon.com/512/10550/10550857.png");
+    list-style-position: inside; */
+}
+
+li{
+    color: white;
+    font-size: 30px;
+}
+
+
+h1{
+    font-family: Impact, sans-serif;
+}
+
+
+/* ESTILIZAÇÃO POR ID */
+#caixa-rosa{
+    background-color: pink;
+}
+
+#caixa-roxe{
+    background-color: purple;
+}
+
+/* ESTILIZAÇÃO POR CLASS */
+.caixinha{
+    background-color: white;
+    color: black;
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+    text-align: center; /* CENTRALIZA O TEXTO AO CENTRO */
+}

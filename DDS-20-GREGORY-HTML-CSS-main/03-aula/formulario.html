@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <!-- form= agregar informações em formulário pra tratar o envio -->
+    <form action="" method="">
+      <!-- Reserva um área do formulário pra agregar   -->
+      <fieldset>
+        <!-- Título para o fieldset -->
+        <legend>Dados de login</legend>
+        <!-- Caixinha de nome  -->
+        <!-- label = texto pra dizer o que colocar no input  -->
+        <label for="caixa-nome">Nome:</label>
+        <!-- input = tipo de interação com usuário  -->
+        <input
+          type="text"
+          id="caixa-nome"
+          placeholder="Nome ..."
+          maxlength="15"
+          minlength="3"
+        />
+        <br /><br />
+        <!-- Caixinha de email -->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email"
+        />
+        <br /><br />
+        <!-- Caixinha de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="Senha" />
+        <!-- Botão pra enviar o formulário -->
+        <input type="submit" value="Login" />
+        <input type="reset" value="Resetar" />
+      </fieldset>
+    </form>
+
+    <!-- Outros inputs tops -->
+    <h1>Outros inputs</h1>
+    <!-- Datas -->
+    <label for="data">Data:</label>
+    <br />
+    <input type="date" id="data" />
+    <br />
+    <input type="datetime-local" />
+    <br />
+    <input type="time" />
+    <br /><br />
+
+    <!-- Caixinha de telefone -->
+    <label>
+      Telefone:
+      <input
+        type="tel"
+        name="telefone"
+        id="telefone"
+        placeholder="(00) 00000-0000"
+      />
+    </label>
+    <br /><br />
+
+    <!-- caixa de textão -->
+    <label>
+      Textão:
+      <textarea
+        name="textao"
+        id="textao"
+        placeholder="Digite sua bio"
+        cols="30"
+        rows="5"
+      ></textarea>
+    </label>
+    <br /><br />
+
+    <!-- Caixa de cor -->
+    <label>
+      Cor:
+      <input type="color" name="" id="" />
+    </label>
+    <br /><br />
+
+    <!-- Caixinha de número  -->
+    <label>
+      Número:
+      <input type="number" min="-10" max="50" value="7" step="5" />
+    </label>
+    <br /><br />
+
+    <!-- Barrinha de progressão -->
+    <label>
+      Barrinha:
+      <br />
+      0<input type="range" min="0" max="100" value="30" step="20" />100
+    </label>
+
+    <br /><br />
+
+    <!-- Caixinhas de seleção  -->
+    <label for="curso"> Escolha seu curso: </label>
+    <br />
+    <!-- Tipo bolinha -->
+    <input type="radio" name="curso" value="Corte" /> Corte e costura
+    <input type="radio" name="curso" value="Hack" /> Etical Hacking
+    <input type="radio" name="curso" value="Design" /> Design de interiores
+
+    <br />
+    <label for="">Redes sociais</label>
+    <!-- Tipo caixinha  -->
+    <input type="checkbox" name="rede1" value="zap" /> Zap zap
+    <input type="checkbox" name="rede2" value="face" /> Face
+    <input type="checkbox" name="rede3" value="desativado" /> Orkut <br /><br />
+
+    <!-- Caixa com varias opcoes  -->
+    <label for="">Cidade:</label>
+    <select name="" id="">
+      <option value="Toquio">Tóquio</option>
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="Doha">Doha</option>
+      <optgroup name="BR" label="Brasil">
+        <option value="Brasilia" selected>Brasília</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Salvador">Salvador</option>
+      </optgroup>
+    </select>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+</html>

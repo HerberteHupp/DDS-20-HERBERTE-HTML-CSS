@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Playwrite";
+    src: url("./fonts/Playwrite.ttf");
+}
+
+body{
+    background-color: turquoise;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+p{
+    font-family: "Roboto", Arial, sans-serif ;
+    font-weight: 100;
+}
+
+h1{
+    font-family: "PlayWrite", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#na-direita{
+    text-align: right;
+    text-align: end;
+}
+
+#na-esquerda{
+    text-align: left;
+    text-align: start;
+}
+
+#no-centro{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
+
+#minus{
+    text-transform: lowercase;
+}
+
+#maius{
+    text-transform: uppercase;
+}
+
+#capitalizado{
+    text-transform: capitalize;
+}
+
+#decorado{
+    text-decoration: line-through overline white;
+}
+
+.fonte-google{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fonte-padrao{
+    font-family: 'Lucida Sans', sans-serif;
+}
