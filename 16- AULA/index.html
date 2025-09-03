@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+      <h1> Olá,sou um título</h1>
+
+      <p class="para"> Algo aqui pra dizer que tem</p>
+      <p class="para"> Mais um, texto top ai</p>
+      <p class = "para" id="p3"> O farol das estrelas </p>
+
+      <h1> Transformes 4 - A era extinção</h1>
+      <h1>Acabou</h1>
+
+
+      <h2 onclick="console.log('Eu cliquei')">CLIQUE AQUI</h2>
+
+      <h2 onclick="cliquei()">
+         AQUI NÃO PODE NÃO</h2>
+
+     <h2 onclick="mudar()">
+           mudar a cor
+     </h2>    
+
+
+     <h1 onclick="quemfoi(this)">
+
+        ALO
+
+     </h1>
+
+     <p onclick="Quemfoi(this)">
+         fazendo também
+     </p>
+
+
+     <br><br><br><br>
+      
+     <h1> OUTRA ÁREA</h1>
+
+
+     Muda quando sai:
+      <!-- ONCHANGE = PEGA QUANDO MUDA O FOCO -->
+     <input type="text" onchange="troca(this)">
+     <h3 id ="textoTrocar">TEXTO AQUI</h3>
+
+     <BR><BR></BR></BR>
+
+
+     <!-- ONINPUT = PEGA QUANDO HÁ ALTERAÇÃO  -->
+     Muda quando digito:
+     <input type="text" oninput ="trocaAgora(this)">
+     <h3 id ="textoTrocarAgora">TEXTO AQUI</h3>
+
+
+
+     <br><br><br><br>
+
+
+
+     <h1 onmouseover ="viraVerde(this)"
+          onmouseout ="viraAzul(this)">
+     
+     OLHA ISSO AQUI
+    </h1>
+
+
+
+      
+
+
+
+      
+     <!-- <script src=""></script> -->
+    <script src="interaçao.js"></script>
+    
+
+</body>
+</html>
