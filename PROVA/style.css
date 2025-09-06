@@ -51,24 +51,85 @@ main {
   padding: 10px;
   text-align: center;
   margin-top: 40px;
-  color: white;
-  height: 300px;
+  color: black;
+  height: 900px;
   line-height: 200px;
   
 
 }
 
 
-#linha-bloco1{
-background-color:white;
-text-align: center;
-height: 325px;
-margin-top: 0px;
-margin-left: 0px;
-color: black ;
 
+
+#logo2 {
+  font-size: 10px;
+  margin-left:100px;
+  margin-right:1500px;
+  width: 70px;
+  height: 70px;
+
+  
+  
+}
+
+#logo3 {
+  font-size: 10px;
+  margin-left:40px;
+  margin-right:40px;
+  width: 70px;
+  height: 0px;
+
+  
+  
+}
+
+#logo4 {
+  font-size: 10px;
+  margin-right:100px;
+  margin-left: 1430px;
+  width: 70px;
+  height: 70px;
+}
+
+
+
+
+.mini-linha{
+  background-color:rgb(250, 242, 242);
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+  display: inline-block;
+  text-align:center;
+  font-size: 40px;
+  margin-top: 40px;
+  color: rgb(136, 132, 132);
+  height: 400px;
+  line-height: 100px;
+  
 
 }
+
+
+
+
+.mini-linha1{
+  background-color:rgb(250, 242, 245);
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 0px;
+  padding: 0px;
+  display: inline-block;
+  text-align:center;
+  font-size: 40px;
+  margin-top: 40px;
+  color:  rgb(136, 132, 132);
+  height:300px;
+  line-height: 100px;
+}
+
+
 
 
 
@@ -80,8 +141,6 @@ color: black ;
   background-color: white;
 
 }
-
-
 
 
 
@@ -101,3 +160,35 @@ li {
   margin: top 10px;
 }
 
+
+footer {
+ background-color:#2298E1;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 0px;
+  padding: 0px;
+  display: inline-block;
+  text-align:left;
+  margin-top: 40px;
+  color: rgb(22, 2, 2);
+  height: 900px;
+  line-height: 100px;
+  
+
+}
+
+#bloco-final{
+  background-color:rgb(250, 242, 242);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  display: inline-block;
+  text-align:left;
+  margin-top: 40px;
+  color: rgb(22, 2, 2);
+  height: 800px;
+  line-height: 100px;
+  
+
+}
